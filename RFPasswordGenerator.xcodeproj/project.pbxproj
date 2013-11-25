@@ -21,6 +21,7 @@
 		C7313D9A1843A73E003684A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7313D7C1843A73E003684A1 /* UIKit.framework */; };
 		C7313DA21843A73E003684A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7313DA01843A73E003684A1 /* InfoPlist.strings */; };
 		C7313DA41843A73E003684A1 /* RFPasswordGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7313DA31843A73E003684A1 /* RFPasswordGeneratorTests.m */; };
+		C7313DB11843A8F6003684A1 /* RFPasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7313DB01843A8F6003684A1 /* RFPasswordGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7313D9F1843A73E003684A1 /* RFPasswordGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFPasswordGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		C7313DA11843A73E003684A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7313DA31843A73E003684A1 /* RFPasswordGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFPasswordGeneratorTests.m; sourceTree = "<group>"; };
+		C7313DAF1843A8F6003684A1 /* RFPasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFPasswordGenerator.h; path = RFPasswordGeneratorClass/RFPasswordGenerator.h; sourceTree = "<group>"; };
+		C7313DB01843A8F6003684A1 /* RFPasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFPasswordGenerator.m; path = RFPasswordGeneratorClass/RFPasswordGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C7313D6C1843A73E003684A1 = {
 			isa = PBXGroup;
 			children = (
+				C7313DAF1843A8F6003684A1 /* RFPasswordGenerator.h */,
+				C7313DB01843A8F6003684A1 /* RFPasswordGenerator.m */,
 				C7313D7E1843A73E003684A1 /* RFPasswordGenerator */,
 				C7313D9D1843A73E003684A1 /* RFPasswordGeneratorTests */,
 				C7313D771843A73E003684A1 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				C7313D8F1843A73E003684A1 /* ViewController.m in Sources */,
 				C7313D891843A73E003684A1 /* AppDelegate.m in Sources */,
+				C7313DB11843A8F6003684A1 /* RFPasswordGenerator.m in Sources */,
 				C7313D851843A73E003684A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
