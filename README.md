@@ -12,8 +12,10 @@ How To Get Started
 2.  #import "RFPasswordGenerator.h"
 3.  Use 3 different security options:
   
-     NSString *myPassword = [RFPasswordGenerator generateHighSecurityPassword]
-     NSString *myPassword = [RFPasswordGenerator generateMediumSecurityPassword]
+     NSString *myPassword = [RFPasswordGenerator generateHighSecurityPassword];
+
+     NSString *myPassword = [RFPasswordGenerator generateMediumSecurityPassword];
+     
      NSString *myPassword = [RFPasswordGenerator generateLowSecurityPassword]
 
 Enjoy!
