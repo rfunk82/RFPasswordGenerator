@@ -21,7 +21,7 @@ How To Get Started
 Created By
 ==========
 
-Ricardo Funk (@rfunk82)
+Ricardo Funk ([@rfunk82](http://www.twitter.com/rfunk82))
 
 License
 =======
