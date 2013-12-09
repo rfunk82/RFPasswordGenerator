@@ -56,9 +56,6 @@ char *appendRandom(char *str, char *alphabet, int amount) {
         cPassword[r] = temp;
     }
     
-    // Show the password
-    //[self.passwordField setStringValue:[NSString stringWithCString:cPassword encoding:NSUTF8StringEncoding]];
-    
     return [NSString stringWithCString:cPassword encoding:NSUTF8StringEncoding];
 }
 
